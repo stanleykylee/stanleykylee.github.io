@@ -16,7 +16,7 @@ title                    : "this is stan lee"
 title_separator          : "-"
 name                     : &name "Stan Lee" # &name is a YAML anchor which can be *referenced later
 description              : &description "another technology blog, because sharing is caring"
-url                      : https://www.iamstanlee.com # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : http://iamstanlee.com # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "stanleykylee/stanleykylee.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
