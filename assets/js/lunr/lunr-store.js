@@ -24,12 +24,12 @@ var store = [
           {%- endif -%}
         "categories": {{ doc.categories | jsonify }},
         "tags": {{ doc.tags | jsonify }},
-        "url": {{ doc.url | absolute_url | jsonify }},
+        "url": {{ doc.url | relative_url | jsonify }},
         "teaser":
           {%- if teaser contains "://" -%}
             {{ teaser | jsonify }}
           {%- else -%}
-            {{ teaser | absolute_url | jsonify }}
+            {{ teaser | relative_url | jsonify }}
           {%- endif -%}
       }{%- unless forloop.last and l -%},{%- endunless -%}
     {%- endfor -%}
