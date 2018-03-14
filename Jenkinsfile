@@ -1,7 +1,7 @@
 pipeline {
     agent {
         node {
-            lable 'docker-local-compose-v1'
+            label 'docker-local-compose-v1'
         }
     }
     stages {
