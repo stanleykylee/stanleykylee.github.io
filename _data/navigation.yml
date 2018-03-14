@@ -24,10 +24,12 @@ main:
 #    url: /docs/quick-start-guide/
   - title: "About"
     url: /about/
-  - title: "Blog Posts"
-    url: /year-archive/
-  - title: "Collections"
-    url: /collection-archive/
+  - title: "Blog"
+    url: /blog/
+  - title: "Archive"
+    url: /tags/
+#  - title: "Collections"
+#    url: /collection-archive/
 #  - title: "Terms &amp; Privacy Policy"
 #    url: /terms/
 
