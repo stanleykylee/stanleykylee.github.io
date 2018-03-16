@@ -101,5 +101,5 @@ comments:
   # Register your domain at https://www.google.com/recaptcha/ and choose reCAPTCHA V2
   reCaptcha:
     enabled: true
-    siteKey                : "6Lc9EkwUAAAAANnBJHZDBUiNFyzyGQojd7X5Fu05"
-    secret                 : "6Lc9EkwUAAAAAKa2eUimdVYgsSPZXRezD-j06GPp"
+    siteKey                : "6Lc1KU0UAAAAALI36fX9CWK4vl7Mgs4mNOkmya1R"
+    secret                 : "kyXR5d0jOxJt6UyuzU7oaTc4m/FDvsO8NjwV2ksy7lGcQBked/S/UhaGJIdLiosJ9RC9atfvcheXlEMDH7DUoq74Xu3DNdjLUYmggcyCjxzDHV/ubwXeFcPkQwp+/6ObGl8uF9mPrkDH3DlWx/nPTB9IIh+cmHymHo7pJQ5gO8Q="
