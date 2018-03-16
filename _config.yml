@@ -34,11 +34,12 @@ comments:
     num_posts            : # 5 (default)
     colorscheme          : # "light" (default), "dark"
 staticman:
-  allowedFields          : ['name', 'email', 'url', 'message']
+  allowedFields          : ["name", "email", "url", "message", "replying_to"]
+  allowedOrigins         : ["iamstanlee.com"]
   branch                 : "master"
   commitMessage          : "New comment"
-  filename               : comment-{@timestamp}
-  format                 : "yml"
+  filename               : "comment-{@timestamp}"
+  format                 : "yaml"
   moderation             : true
   path                   : "_data/comments/{options.slug}"
   requiredFields         : ['name', 'email', 'message']
